@@ -23,8 +23,7 @@ export default class ArticleAlbum extends React.Component {
   render() {
     return (
             <div>
-            <div><a href="" onClick={this.sortby}>sort</a></div>
-                
+                            
                 { this.state.albums.map( (alb,idx) => { return(
                                                     <div key={idx} className="album">
                                                       <img src={alb.URL}/>
